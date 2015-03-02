@@ -51,6 +51,11 @@
                BlueprintName = "BoardGameTests"
                ReferencedContainer = "container:BoardGame.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "BoardGameTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

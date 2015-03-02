@@ -19,7 +19,8 @@ class GameScene: SKScene {
             "fontName":"Arial Bold",
             "fontSize":40,
             "fontColor":UIColor(red: 0.47, green: 0.0, blue: 0.0, alpha: 1.0),
-            "position":["x":40,"y":400]
+            "position":["x":40,"y":400],
+            "faceUp":false
         ])
         
         cardOne.position = CGPointMake(600, 200)
