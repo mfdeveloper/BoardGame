@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BoardGame.Card.init (BoardGame.Card.Type)(imageNamed : Swift.String, options : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, protocol&lt;&gt;&gt;&gt;) -&gt; BoardGame.Card:Card.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "options">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BoardGame.Card.(newLabelWith in _74E794F38B605E5B62CAD68F9A5E52FC) (BoardGame.Card)(Swift.Dictionary&lt;Swift.String, protocol&lt;&gt;&gt;) -&gt; ObjectiveC.SKLabelNode:Card.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "labelMirror.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

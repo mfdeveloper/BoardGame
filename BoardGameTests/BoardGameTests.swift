@@ -21,8 +21,9 @@ class BoardGameTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testCardLabel() {
         // This is an example of a functional test case.
+        
         XCTAssert(true, "Pass")
     }
     

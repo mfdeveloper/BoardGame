@@ -13,15 +13,20 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         
-        let cardOne = Card(imageNamed: "duke_card.jpg", options: [
-            "text":"120",
-            "name":"damageLabel",
-            "fontName":"Arial Bold",
-            "fontSize":40,
-            "fontColor":UIColor(red: 0.47, green: 0.0, blue: 0.0, alpha: 1.0),
-            "position":["x":40,"y":400],
-            "faceUp":false
-        ])
+        let cardOne = Card(imageNamed: "duke_card.jpg",
+                           labels: [
+                                [
+                                    "text":"120",
+                                    "name":"damageLabel",
+                                    "fontName":"Arial Bold",
+                                    "fontSize":40,
+                                    "fontColor":UIColor(red: 0.47, green: 0.0, blue: 0.0, alpha: 1.0),
+                                    "position":["x":40,"y":400]
+                                ]
+                            ],
+                            options:[
+                                "faceUp":false
+                            ])
         
         cardOne.position = CGPointMake(600, 200)
         
@@ -29,7 +34,7 @@ class GameScene: SKScene {
         
         self.addChild(cardOne)
         
-        let cardTwo = Card(imageNamed: "assassin_card.png",options: nil)
+        let cardTwo = Card(imageNamed: "assassin_card.png", labels:nil,options: nil)
         cardTwo.position = CGPointMake(400, 200)
         
         cardTwo.runAction(SKAction.scaleTo(0.3, duration: 0.0))
@@ -89,19 +94,5 @@ class GameScene: SKScene {
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
-    }
-    
-    /**
-    * @todo Remove this method, after finalize the Card#newLabelWith() method
-    */
-    func newDamageLabel() -> SKLabelNode {
-        let damageLabel = SKLabelNode(fontNamed: "Arial Bold")
-        damageLabel.name = "damageLabel"
-        damageLabel.fontSize = 40
-        damageLabel.fontColor = UIColor(red: 0.47, green: 0.0, blue: 0.0, alpha: 1.0)
-        damageLabel.text = "120"
-        damageLabel.position = CGPointMake(40,400)
-        
-        return damageLabel
     }
 }

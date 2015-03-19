@@ -15,13 +15,13 @@
 		8E70019C1A7FD5ED009C140D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E70019B1A7FD5ED009C140D /* Images.xcassets */; };
 		8E70019F1A7FD5ED009C140D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E70019D1A7FD5ED009C140D /* LaunchScreen.xib */; };
 		8E7001AB1A7FD5ED009C140D /* BoardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7001AA1A7FD5ED009C140D /* BoardGameTests.swift */; };
-		8E7001B71A7FE176009C140D /* duke_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7001B61A7FE176009C140D /* duke_card.jpg */; };
-		8E7001B91A7FE180009C140D /* assassin_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7001B81A7FE180009C140D /* assassin_card.png */; };
-		8EB1B5F41AA0CDFD006AF975 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1B5F31AA0CDFD006AF975 /* Card.swift */; };
-		8EB1B5F71AA0CFBD006AF975 /* SKLabelNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1B5F61AA0CFBD006AF975 /* SKLabelNodeExt.swift */; };
-		8EB1B5FB1AA0DAC4006AF975 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1B5F31AA0CDFD006AF975 /* Card.swift */; };
-		8EB1B5FD1AA0DB0A006AF975 /* SKLabelNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1B5F61AA0CFBD006AF975 /* SKLabelNodeExt.swift */; };
-		8EE332041AA4CCB100C3B596 /* back_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EE332031AA4CCB100C3B596 /* back_card.jpg */; };
+		8EDB450E1ABB266C0014F79D /* assassin_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB450B1ABB266C0014F79D /* assassin_card.png */; };
+		8EDB450F1ABB266C0014F79D /* back_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB450C1ABB266C0014F79D /* back_card.jpg */; };
+		8EDB45101ABB266C0014F79D /* duke_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB450D1ABB266C0014F79D /* duke_card.jpg */; };
+		8EDB45181ABB36370014F79D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB45121ABB36370014F79D /* .gitignore */; };
+		8EDB45191ABB36370014F79D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB45141ABB36370014F79D /* Card.swift */; };
+		8EDB451A1ABB36370014F79D /* SKLabelNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */; };
+		8EDB451B1ABB36370014F79D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB45171ABB36370014F79D /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +47,13 @@
 		8E7001A41A7FD5ED009C140D /* BoardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7001A91A7FD5ED009C140D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E7001AA1A7FD5ED009C140D /* BoardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameTests.swift; sourceTree = "<group>"; };
-		8E7001B61A7FE176009C140D /* duke_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke_card.jpg; sourceTree = "<group>"; };
-		8E7001B81A7FE180009C140D /* assassin_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assassin_card.png; sourceTree = "<group>"; };
-		8EB1B5F31AA0CDFD006AF975 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		8EB1B5F61AA0CFBD006AF975 /* SKLabelNodeExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKLabelNodeExt.swift; sourceTree = "<group>"; };
-		8EE332031AA4CCB100C3B596 /* back_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_card.jpg; sourceTree = "<group>"; };
+		8EDB450B1ABB266C0014F79D /* assassin_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assassin_card.png; sourceTree = "<group>"; };
+		8EDB450C1ABB266C0014F79D /* back_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_card.jpg; sourceTree = "<group>"; };
+		8EDB450D1ABB266C0014F79D /* duke_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke_card.jpg; sourceTree = "<group>"; };
+		8EDB45121ABB36370014F79D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8EDB45141ABB36370014F79D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKLabelNodeExt.swift; sourceTree = "<group>"; };
+		8EDB45171ABB36370014F79D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,7 @@
 		8E70018D1A7FD5EC009C140D /* BoardGame */ = {
 			isa = PBXGroup;
 			children = (
-				8EB1B5F51AA0CF0D006AF975 /* Extensions */,
-				8EB1B5F31AA0CDFD006AF975 /* Card.swift */,
+				8EDB45111ABB36370014F79D /* BoardFramework */,
 				8E7001901A7FD5EC009C140D /* AppDelegate.swift */,
 				8E7001921A7FD5EC009C140D /* GameScene.sks */,
 				8E7001941A7FD5EC009C140D /* GameScene.swift */,
@@ -111,9 +112,7 @@
 		8E70018E1A7FD5EC009C140D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EE332031AA4CCB100C3B596 /* back_card.jpg */,
-				8E7001B81A7FE180009C140D /* assassin_card.png */,
-				8E7001B61A7FE176009C140D /* duke_card.jpg */,
+				8EDB450A1ABB266C0014F79D /* Assets */,
 				8E70018F1A7FD5EC009C140D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -136,10 +135,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8EB1B5F51AA0CF0D006AF975 /* Extensions */ = {
+		8EDB450A1ABB266C0014F79D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				8EB1B5F61AA0CFBD006AF975 /* SKLabelNodeExt.swift */,
+				8EDB450B1ABB266C0014F79D /* assassin_card.png */,
+				8EDB450C1ABB266C0014F79D /* back_card.jpg */,
+				8EDB450D1ABB266C0014F79D /* duke_card.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8EDB45111ABB36370014F79D /* BoardFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB45121ABB36370014F79D /* .gitignore */,
+				8EDB45131ABB36370014F79D /* Entities */,
+				8EDB45151ABB36370014F79D /* Extensions */,
+				8EDB45171ABB36370014F79D /* LICENSE */,
+			);
+			path = BoardFramework;
+			sourceTree = "<group>";
+		};
+		8EDB45131ABB36370014F79D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB45141ABB36370014F79D /* Card.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8EDB45151ABB36370014F79D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,13 +252,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDB45181ABB36370014F79D /* .gitignore in Resources */,
 				8E70019F1A7FD5ED009C140D /* LaunchScreen.xib in Resources */,
 				8E70019C1A7FD5ED009C140D /* Images.xcassets in Resources */,
-				8E7001B71A7FE176009C140D /* duke_card.jpg in Resources */,
-				8EE332041AA4CCB100C3B596 /* back_card.jpg in Resources */,
-				8E7001B91A7FE180009C140D /* assassin_card.png in Resources */,
+				8EDB450E1ABB266C0014F79D /* assassin_card.png in Resources */,
 				8E7001931A7FD5EC009C140D /* GameScene.sks in Resources */,
 				8E70019A1A7FD5EC009C140D /* Main.storyboard in Resources */,
+				8EDB451B1ABB36370014F79D /* LICENSE in Resources */,
+				8EDB45101ABB266C0014F79D /* duke_card.jpg in Resources */,
+				8EDB450F1ABB266C0014F79D /* back_card.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +280,9 @@
 			files = (
 				8E7001951A7FD5EC009C140D /* GameScene.swift in Sources */,
 				8E7001971A7FD5EC009C140D /* GameViewController.swift in Sources */,
-				8EB1B5F41AA0CDFD006AF975 /* Card.swift in Sources */,
-				8EB1B5F71AA0CFBD006AF975 /* SKLabelNodeExt.swift in Sources */,
 				8E7001911A7FD5EC009C140D /* AppDelegate.swift in Sources */,
+				8EDB451A1ABB36370014F79D /* SKLabelNodeExt.swift in Sources */,
+				8EDB45191ABB36370014F79D /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7001AB1A7FD5ED009C140D /* BoardGameTests.swift in Sources */,
-				8EB1B5FB1AA0DAC4006AF975 /* Card.swift in Sources */,
-				8EB1B5FD1AA0DB0A006AF975 /* SKLabelNodeExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BoardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -390,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BoardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

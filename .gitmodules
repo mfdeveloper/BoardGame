@@ -1,0 +1,3 @@
+[submodule "BoardGame/BoardFramework"]
+	path = BoardGame/BoardFramework
+	url = git@github.com:mfdeveloper/BoardFramework.git
