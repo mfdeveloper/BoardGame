@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/mfdeveloper/boardgame.png?label=ready&title=Ready)](https://waffle.io/mfdeveloper/boardgame)
 # BoardGame - The IOS Swift simple board game
 
 This game was created to **use and develop** [BoardFramework] (https://github.com/mfdeveloper/BoardFramework) 
