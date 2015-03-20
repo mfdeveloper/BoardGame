@@ -22,6 +22,7 @@
 		8EDB45191ABB36370014F79D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB45141ABB36370014F79D /* Card.swift */; };
 		8EDB451A1ABB36370014F79D /* SKLabelNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */; };
 		8EDB451B1ABB36370014F79D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB45171ABB36370014F79D /* LICENSE */; };
+		8EDB451E1ABB59CC0014F79D /* board-first-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB451D1ABB59CC0014F79D /* board-first-screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		8EDB45141ABB36370014F79D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKLabelNodeExt.swift; sourceTree = "<group>"; };
 		8EDB45171ABB36370014F79D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8EDB451D1ABB59CC0014F79D /* board-first-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board-first-screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		8E70018E1A7FD5EC009C140D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EDB451C1ABB59CC0014F79D /* Images */,
 				8EDB450A1ABB266C0014F79D /* Assets */,
 				8E70018F1A7FD5EC009C140D /* Info.plist */,
 			);
@@ -170,6 +173,14 @@
 				8EDB45161ABB36370014F79D /* SKLabelNodeExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8EDB451C1ABB59CC0014F79D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB451D1ABB59CC0014F79D /* board-first-screen.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDB45181ABB36370014F79D /* .gitignore in Resources */,
+				8EDB451E1ABB59CC0014F79D /* board-first-screen.png in Resources */,
 				8E70019F1A7FD5ED009C140D /* LaunchScreen.xib in Resources */,
 				8E70019C1A7FD5ED009C140D /* Images.xcassets in Resources */,
 				8EDB450E1ABB266C0014F79D /* assassin_card.png in Resources */,

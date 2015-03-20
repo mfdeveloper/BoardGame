@@ -25,7 +25,7 @@ class GameScene: SKScene {
                                 ]
                             ],
                             options:[
-                                "faceUp":false
+                                "faceUp":true
                             ])
         
         cardOne.position = CGPointMake(600, 200)
@@ -40,56 +40,6 @@ class GameScene: SKScene {
         cardTwo.runAction(SKAction.scaleTo(0.3, duration: 0.0))
         
         self.addChild(cardTwo)
-    }
-    
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        /* Called when a touch begins */
-        
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            let touchedNode = nodeAtPoint(location)
-            
-            if !touchedNode.isKindOfClass(SKSpriteNode) {
-                continue
-            }
-            
-            let pickUp = SKAction.scaleTo(0.35, duration: 0.2)
-            
-            touchedNode.zPosition = 15
-            touchedNode.runAction(pickUp, withKey: "pickup")
-            
-        }
-        
-    }
-    
-    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            let touchedNode = nodeAtPoint(location)
-            
-            if !touchedNode.isKindOfClass(SKSpriteNode){
-                continue
-            }
-            
-            let dropDown = SKAction.scaleTo(0.3, duration: 0.2)
-            
-            touchedNode.zPosition = 0
-            touchedNode.runAction(dropDown, withKey: "drop")
-            
-        }
-    }
-    
-    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
-        
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            let touchedNode = nodeAtPoint(location)
-            if !touchedNode.isKindOfClass(SKSpriteNode){
-                continue
-            }
-            
-            touchedNode.position = location
-        }
     }
    
     override func update(currentTime: CFTimeInterval) {
