@@ -36,6 +36,6 @@ not broken patents and copyright :)
 
 ### Next implementations
 
-- [ ] Move and refactory **drag and drop** cards from **GameScene.swift** to Card entity in [BoardFramework] (https://github.com/mfdeveloper/BoardFramework) 
-- [ ] Add **flip** action in each Card. The action must be configurable (enable ou disable)
-- [ ] Add left menu (like facebook) to all actions that one player can do
+- [x] Move and refactory **drag and drop** cards from **GameScene.swift** to Card entity in [BoardFramework] (https://github.com/mfdeveloper/BoardFramework). **(Changed in 2015-03-23)**
+- [x] Add **flip** action in each Card. The action must be configurable (enable ou disable). **(Added in 2015-03-23)**
+- [ ] Add left menu (like facebook) to all actions that one player can do.
